@@ -1,7 +1,33 @@
 /* body */
-
+h1{
+    font-size: 56px;
+}
+h2{
+    font-size: 48px;
+}
+h3{
+    font-size: 36px;
+}
+h4{
+    font-size: 28px;
+}
+.white{
+    color: white;
+}
+.black{
+    color: black;
+}
+.center{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: inherit
+}
 body{
     margin: 0;  
+    font-family: Roboto;
+    font-size: 16px;
 }
 
 /* /body */
@@ -17,7 +43,7 @@ header{
 }
 header > * {
     display: inline-block;
-    margin-right: 10%;
+    margin-right: 8%;
 
 }
 .header_section{
@@ -27,6 +53,10 @@ header > * {
 .logo{
     margin-left: 10%;       
     width: 10%;
+    font-weight: bold;
+}
+.header_section > a{
+    font-weight: bold;
 }
 
 /* /header */
@@ -36,7 +66,6 @@ header > * {
     display: flex;
     flex-direction: row;
     align-items: center;
-    color: white;
     height: 600px;
     margin-top: 4rem;
     background-color: #2E2F42;
@@ -46,7 +75,6 @@ header > * {
     margin: 0 auto;
 }
 .hero_block{
-    font-size: 56px;
     margin: 0 auto;  
     padding-bottom: 50px;  
 }
@@ -68,20 +96,61 @@ header > * {
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding-bottom: 5vh;
 }
 .card_body_desc{
     width: 25%;
+    margin-top: 10vh;
     padding-left: 1rem;
     padding-right: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 .bold_text{
-    font-size: 1.5rem;
     font-weight: bold;
-    padding-bottom: 1rem;
 }
 .aboutus_cardbody{
     background-color: #F4F4FD;
+    padding-top: 15vh;
+}
+.aboutus_row{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    padding-bottom: 15vh;
+}
+.aboutus_card{
+    display: inline-block;
+    margin: 0 auto;
+    width: 250px;
+    background-color: white;
+    padding-bottom: 5vh;
+}
+.aboutus_img > *{
+    width: 250px;
+}
+.aboutus_header{
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;  
+    padding-bottom: 50px;  
+    text-align: center;
+}
+.aboutus_header > *{
+    margin: 0 auto;
+    
 }
 
 /* /description section */
+/* footer */
+footer{
+    background-color: #2E2F42;
+    height: 312px;
+}
+.footer_block{
+    padding-left: 10%;
+    padding-top: 10vh;
+}
+/* /footer */
